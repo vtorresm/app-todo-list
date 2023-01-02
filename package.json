@@ -1,0 +1,24 @@
+{
+  "name": "app-todo-list",
+  "version": "1.0.0",
+  "description": "App todo list",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vtorresm/app-todo-list.git"
+  },
+  "keywords": [
+    "terminal",
+    "node"
+  ],
+  "author": "Victor Torres",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vtorresm/app-todo-list/issues"
+  },
+  "homepage": "https://github.com/vtorresm/app-todo-list#readme"
+}
