@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/vtorresm/app-todo-list/issues"
   },
-  "homepage": "https://github.com/vtorresm/app-todo-list#readme"
+  "homepage": "https://github.com/vtorresm/app-todo-list#readme",
+  "dependencies": {
+    "colors": "^1.4.0"
+  }
 }
