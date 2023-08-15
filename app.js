@@ -1,6 +1,6 @@
 require('colors');
 
-const { showMenu } = require('./helpers/messages.js');
+const { showMenu } = require('./helpers/messages.js')
 
 console.clear();
 
@@ -11,3 +11,4 @@ const main = async () => {
 };
 
 main();
+
