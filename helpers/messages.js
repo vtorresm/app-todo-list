@@ -1,6 +1,6 @@
-require('colors');
+import 'colors';
 
-const showMenu = () => {
+function showMenu() {
   return new Promise((resolve, reject) => {
     console.clear();
     console.log('================================='.green);
@@ -25,7 +25,7 @@ const showMenu = () => {
       resolve(opt);
     });
   });
-};
+}
 
 const pause = () => {
   return new Promise((resolve, reject) => {
