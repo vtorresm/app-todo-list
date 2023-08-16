@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "App todo list",
   "main": "app.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -21,6 +22,7 @@
   },
   "homepage": "https://github.com/vtorresm/app-todo-list#readme",
   "dependencies": {
-    "colors": "^1.4.0"
+    "colors": "^1.4.0",
+    "inquirer": "^9.2.10"
   }
 }
