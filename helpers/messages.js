@@ -27,6 +27,21 @@ const showMenu = () => {
   });
 };
 
+const pause = () => {
+  return new Promise((resolve, reject) => {
+    const readline = require('readline').createInterface({
+      input: process.stdin,
+      output: process.stdout,
+    });
+
+    readline.question(`\nPresione ${'ENTER'.blue} para continuar\n`, (opt) => {
+      readline.close();
+      resolve();
+    });
+  });
+}
+
 module.exports = {
   showMenu,
+  pause,
 };
