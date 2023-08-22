@@ -3,13 +3,13 @@ import { v4 as uuidv4 } from 'uuid';
 class Task {
   id = '';
   desc = '';
-  completedIn = null;
+  completadoEn = null;
 
   constructor(desc) {
-    this.id = uudiv4();
+    this.id = uuidv4();
     this.desc = desc;
-    this.completedIn = null;
+    this.completadoEn = null;
   }
 }
 
-module.exports = Task;
+export default Task;
