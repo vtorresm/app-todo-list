@@ -23,6 +23,7 @@
   "homepage": "https://github.com/vtorresm/app-todo-list#readme",
   "dependencies": {
     "colors": "^1.4.0",
-    "inquirer": "^9.2.10"
+    "inquirer": "^9.2.10",
+    "uuid": "^8.3.2"
   }
 }
